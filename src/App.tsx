@@ -46,6 +46,17 @@ const products: Product[] = [
 
 const cats = ['All','Necklaces','Rings','Earrings','Bangles','Bridal','Pendants'];
 
+const categories = cats;
+const imgs = [
+  products[0].image,
+  products[6].image,
+  products[12].image,
+  products[18].image,
+  products[24].image,
+  products[30].image,
+  products[0].image
+];
+
 function money(n:number){ return '₹' + n.toLocaleString('en-IN'); }
 
 export default function App(){
