@@ -1,0 +1,81 @@
+
+/* =========================================
+   PRODUCT IMAGE FIX
+   Keeps jewellery completely inside frame
+   ========================================= */
+
+.product-image,
+.product-card img,
+.product-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain !important;
+  object-position: center center !important;
+  display: block;
+}
+
+/* Product image area */
+.product-image-container {
+  width: 100%;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Prevent product images from being cropped */
+.product-card {
+  overflow: hidden;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .product-image-container {
+    height: 260px;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  .product-image-container {
+    height: 230px;
+  }
+}
+
+
+/* =========================================
+   EARRINGS ONLY — IMAGE FRAME FIX
+   Applies to all 70 earrings
+   ========================================= */
+
+.earrings-section .product-image,
+.earrings-section .product-card img,
+.earrings-section .product-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain !important;
+  object-position: center center !important;
+  display: block;
+}
+
+.earrings-section .product-image-container {
+  width: 100%;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .earrings-section .product-image-container {
+    height: 260px;
+  }
+}
+
+@media (max-width: 480px) {
+  .earrings-section .product-image-container {
+    height: 230px;
+  }
+}

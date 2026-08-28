@@ -1,3 +1,21 @@
+/* =========================================================
+   SWARNA JEWELLERS - PRODUCTS
+   ========================================================= */
+
+export type Product = {
+  id: number;
+  name: string;
+  category: string;
+  gender?: "Men" | "Women" | "Unisex";
+  price: number;
+  image: string;
+};
+
+
+/* =========================================================
+   MEN RINGS
+   ========================================================= */
+
 import ring01 from "./assets/products/rings/Men/ring-01.jpg";
 import ring02 from "./assets/products/rings/Men/ring-02.jpg";
 import ring03 from "./assets/products/rings/Men/ring-03.jpg";
@@ -7,9 +25,10 @@ import ring06 from "./assets/products/rings/Men/ring-06.jpg";
 import ring07 from "./assets/products/rings/Men/ring-07.jpg";
 import ring08 from "./assets/products/rings/Men/ring-08.jpg";
 
-/* =========================
+
+/* =========================================================
    WOMEN RINGS
-========================= */
+   ========================================================= */
 
 import ringW01 from "./assets/products/rings/Women/IMG20260824132246.jpg";
 import ringW02 from "./assets/products/rings/Women/IMG20260824132828.jpg";
@@ -72,17 +91,19 @@ import ringW61 from "./assets/products/rings/Women/IMG20260825121812.jpg";
 import ringW62 from "./assets/products/rings/Women/IMG20260825121856.jpg";
 import ringW63 from "./assets/products/rings/Women/IMG20260825121927.jpg";
 
-/* =========================
+
+/* =========================================================
    CHAINS
-========================= */
+   ========================================================= */
 
 import chain01 from "./assets/products/chains/IMG20260827190947.jpg";
 import chain02 from "./assets/products/chains/IMG20260827191330.jpg";
 import chain03 from "./assets/products/chains/IMG20260827191936.jpg";
 
-/* =========================
+
+/* =========================================================
    MANGALSUTRA
-========================= */
+   ========================================================= */
 
 import mangalsutra01 from "./assets/products/mangalsutra/IMG20260827191244 2.jpg";
 import mangalsutra02 from "./assets/products/mangalsutra/IMG20260827191330.jpg";
@@ -97,9 +118,10 @@ import mangalsutra10 from "./assets/products/mangalsutra/IMG20260827193912 2.jpg
 import mangalsutra11 from "./assets/products/mangalsutra/IMG20260827194631.jpg";
 import mangalsutra12 from "./assets/products/mangalsutra/IMG20260827194732.jpg";
 
-/* =========================
+
+/* =========================================================
    EARRINGS
-========================= */
+   ========================================================= */
 
 import earring01 from "./assets/products/earrings/IMG20260827111808.jpg";
 import earring02 from "./assets/products/earrings/IMG20260827111924.jpg";
@@ -132,7 +154,6 @@ import earring28 from "./assets/products/earrings/IMG20260827120608.jpg";
 import earring29 from "./assets/products/earrings/IMG20260827120805.jpg";
 import earring30 from "./assets/products/earrings/IMG20260827121218.jpg";
 import earring31 from "./assets/products/earrings/IMG20260827121359.jpg";
-import earring32 from "./assets/products/earrings/IMG20260827121442.jpg";
 import earring33 from "./assets/products/earrings/IMG20260827121732.jpg";
 import earring34 from "./assets/products/earrings/IMG20260827121834.jpg";
 import earring35 from "./assets/products/earrings/IMG20260827121940.jpg";
@@ -144,37 +165,11 @@ import earring40 from "./assets/products/earrings/IMG20260827122424.jpg";
 import earring41 from "./assets/products/earrings/IMG20260827122526.jpg";
 import earring42 from "./assets/products/earrings/IMG20260827122610.jpg";
 import earring43 from "./assets/products/earrings/IMG20260827122701.jpg";
-import earring44 from "./assets/products/earrings/IMG20260827123443.jpg";
-import earring45 from "./assets/products/earrings/IMG20260827123520.jpg";
-import earring46 from "./assets/products/earrings/IMG20260827123604.jpg";
-import earring47 from "./assets/products/earrings/IMG20260827123652.jpg";
-import earring48 from "./assets/products/earrings/IMG20260827123728.jpg";
-import earring49 from "./assets/products/earrings/IMG20260827123800.jpg";
-import earring50 from "./assets/products/earrings/IMG20260827123838.jpg";
-import earring51 from "./assets/products/earrings/IMG20260827123950.jpg";
-import earring52 from "./assets/products/earrings/IMG20260827124029.jpg";
-import earring53 from "./assets/products/earrings/IMG20260827124242.jpg";
-import earring54 from "./assets/products/earrings/IMG20260827124323.jpg";
-import earring55 from "./assets/products/earrings/IMG20260827124445.jpg";
-import earring56 from "./assets/products/earrings/IMG20260827124643.jpg";
-import earring57 from "./assets/products/earrings/IMG20260827124728.jpg";
-import earring58 from "./assets/products/earrings/IMG20260827124812.jpg";
-import earring59 from "./assets/products/earrings/IMG20260827124930.jpg";
-import earring60 from "./assets/products/earrings/IMG20260827125025.jpg";
-import earring61 from "./assets/products/earrings/IMG20260827125119.jpg";
-import earring62 from "./assets/products/earrings/IMG20260827125315.jpg";
-import earring63 from "./assets/products/earrings/IMG20260827125450.jpg";
-import earring64 from "./assets/products/earrings/IMG20260827125527.jpg";
-import earring65 from "./assets/products/earrings/IMG20260827173843.jpg";
-import earring66 from "./assets/products/earrings/IMG20260827173946.jpg";
-import earring68 from "./assets/products/earrings/IMG20260827174041.jpg";
-import earring69 from "./assets/products/earrings/IMG20260827174117.jpg";
-import earring70 from "./assets/products/earrings/IMG20260827174206.jpg";
-import earring71 from "./assets/products/earrings/IMG20260827174246.jpg";
 
-/* =========================
+
+/* =========================================================
    NECKLACES
-========================= */
+   ========================================================= */
 
 import necklace01 from "./assets/products/necklaces/IMG20260827185132.jpg";
 import necklace02 from "./assets/products/necklaces/IMG20260827185146.jpg";
@@ -196,10 +191,13 @@ import necklace17 from "./assets/products/necklaces/IMG20260827190448.jpg";
 import necklace18 from "./assets/products/necklaces/IMG20260827190620.jpg";
 import necklace19 from "./assets/products/necklaces/IMG20260827190738.jpg";
 import necklace20 from "./assets/products/necklaces/IMG20260827190811.jpg";
+import necklace21 from "./assets/products/necklaces/IMG_3583.jpeg";
+import necklace22 from "./assets/products/necklaces/necklace-22.png";
 
-/* =========================
+
+/* =========================================================
    PENDANTS
-========================= */
+   ========================================================= */
 
 import pendant01 from "./assets/products/pendants/IMG20260825124327 2.jpg";
 import pendant02 from "./assets/products/pendants/IMG20260825124459.jpg";
@@ -246,95 +244,74 @@ import pendant42 from "./assets/products/pendants/IMG20260825133452 2.jpg";
 import pendant43 from "./assets/products/pendants/IMG20260825133544 2.jpg";
 import pendant44 from "./assets/products/pendants/IMG20260825133626.jpg";
 
-/* =========================
-   TYPES
-========================= */
 
-export type Product = {
-  id: number;
-  name: string;
-  category: string;
-  gender?: "Men" | "Women" | "Unisex";
-  price: number;
-  image: string;
-};
+/* =========================================================
+   DIAMOND - 15 IMAGES
+   ========================================================= */
 
-/* =========================
+import diamond01 from "./assets/products/Diamond/IMG20260827195457.jpg";
+import diamond02 from "./assets/products/Diamond/IMG20260827195619.jpg";
+import diamond03 from "./assets/products/Diamond/IMG20260827195705.jpg";
+import diamond04 from "./assets/products/Diamond/IMG20260827195740.jpg";
+import diamond05 from "./assets/products/Diamond/IMG20260827195834.jpg";
+import diamond06 from "./assets/products/Diamond/IMG20260827195905.jpg";
+import diamond07 from "./assets/products/Diamond/IMG20260827195946.jpg";
+import diamond08 from "./assets/products/Diamond/IMG20260827200024.jpg";
+import diamond09 from "./assets/products/Diamond/IMG20260827200050.jpg";
+import diamond10 from "./assets/products/Diamond/IMG20260827200123.jpg";
+import diamond11 from "./assets/products/Diamond/IMG20260827200158.jpg";
+import diamond12 from "./assets/products/Diamond/IMG20260827200240.jpg";
+import diamond13 from "./assets/products/Diamond/IMG20260827200338.jpg";
+import diamond14 from "./assets/products/Diamond/IMG20260827200419.jpg";
+import diamond15 from "./assets/products/Diamond/IMG20260827200515.jpg";
+
+
+/* =========================================================
+   SAKHA - 15 IMAGES
+   ========================================================= */
+
+import sakha01 from "./assets/products/Sakha/IMG20260828121456.jpg";
+import sakha02 from "./assets/products/Sakha/IMG20260828121618.jpg";
+import sakha03 from "./assets/products/Sakha/IMG20260828121721.jpg";
+import sakha04 from "./assets/products/Sakha/IMG20260828121900.jpg";
+import sakha05 from "./assets/products/Sakha/IMG20260828122204.jpg";
+import sakha06 from "./assets/products/Sakha/IMG20260828122319.jpg";
+import sakha07 from "./assets/products/Sakha/IMG20260828122354.jpg";
+import sakha08 from "./assets/products/Sakha/IMG20260828122445.jpg";
+import sakha09 from "./assets/products/Sakha/IMG20260828122538.jpg";
+import sakha10 from "./assets/products/Sakha/IMG20260828122650.jpg";
+import sakha11 from "./assets/products/Sakha/IMG20260828122744.jpg";
+import sakha12 from "./assets/products/Sakha/IMG20260828122905.jpg";
+import sakha13 from "./assets/products/Sakha/IMG20260828122943.jpg";
+import sakha14 from "./assets/products/Sakha/IMG20260828123054.jpg";
+import sakha15 from "./assets/products/Sakha/IMG20260828123132.jpg";
+
+
+/* =========================================================
    IMAGE ARRAYS
-========================= */
+   ========================================================= */
 
 const menRingImages = [
-  ring01,
-  ring02,
-  ring03,
-  ring04,
-  ring05,
-  ring06,
-  ring07,
-  ring08,
+  ring01, ring02, ring03, ring04,
+  ring05, ring06, ring07, ring08,
 ];
 
 const womenRingImages = [
-  ringW01,
-  ringW02,
-  ringW03,
-  ringW04,
-  ringW05,
-  ringW06,
-  ringW07,
-  ringW08,
-  ringW09,
-  ringW10,
-  ringW11,
-  ringW12,
-  ringW13,
-  ringW14,
-  ringW15,
-  ringW16,
-  ringW17,
-  ringW18,
-  ringW19,
-  ringW20,
-  ringW21,
-  ringW22,
-  ringW23,
-  ringW24,
-  ringW25,
-  ringW26,
-  ringW27,
-  ringW28,
-  ringW29,
-  ringW30,
-  ringW31,
-  ringW32,
-  ringW33,
-  ringW34,
-  ringW35,
-  ringW36,
-  ringW37,
-  ringW38,
-  ringW39,
-  ringW40,
-  ringW41,
-  ringW44,
-  ringW45,
-  ringW46,
-  ringW47,
-  ringW49,
-  ringW50,
-  ringW51,
-  ringW52,
-  ringW53,
-  ringW54,
-  ringW55,
-  ringW56,
-  ringW57,
-  ringW58,
-  ringW59,
-  ringW60,
-  ringW61,
-  ringW62,
-  ringW63,
+  ringW01, ringW02, ringW03, ringW04,
+  ringW05, ringW06, ringW07, ringW08,
+  ringW09, ringW10, ringW11, ringW12,
+  ringW13, ringW14, ringW15, ringW16,
+  ringW17, ringW18, ringW19, ringW20,
+  ringW21, ringW22, ringW23, ringW24,
+  ringW25, ringW26, ringW27, ringW28,
+  ringW29, ringW30, ringW31, ringW32,
+  ringW33, ringW34, ringW35, ringW36,
+  ringW37, ringW38, ringW39, ringW40,
+  ringW41, ringW44, ringW45, ringW46,
+  ringW47, ringW49, ringW50, ringW51,
+  ringW52, ringW53, ringW54, ringW55,
+  ringW56, ringW57, ringW58, ringW59,
+  ringW60, ringW61, ringW62, ringW63,
 ];
 
 const chainImages = [
@@ -344,177 +321,77 @@ const chainImages = [
 ];
 
 const mangalsutraImages = [
-  mangalsutra01,
-  mangalsutra02,
-  mangalsutra03,
-  mangalsutra04,
-  mangalsutra05,
-  mangalsutra06,
-  mangalsutra07,
-  mangalsutra08,
-  mangalsutra09,
-  mangalsutra10,
-  mangalsutra11,
-  mangalsutra12,
+  mangalsutra01, mangalsutra02, mangalsutra03,
+  mangalsutra04, mangalsutra05, mangalsutra06,
+  mangalsutra07, mangalsutra08, mangalsutra09,
+  mangalsutra10, mangalsutra11, mangalsutra12,
 ];
 
 const earringImages = [
-  earring01,
-  earring02,
-  earring03,
-  earring04,
-  earring05,
-  earring06,
-  earring07,
-  earring08,
-  earring09,
-  earring10,
-  earring11,
-  earring12,
-  earring13,
-  earring14,
-  earring15,
-  earring16,
-  earring17,
-  earring18,
-  earring19,
-  earring20,
-  earring21,
-  earring22,
-  earring23,
-  earring24,
-  earring25,
-  earring26,
-  earring27,
-  earring28,
-  earring29,
-  earring30,
-  earring31,
-  earring32,
-  earring33,
-  earring34,
-  earring35,
-  earring36,
-  earring37,
-  earring38,
-  earring39,
-  earring40,
-  earring41,
-  earring42,
-  earring43,
-  earring44,
-  earring45,
-  earring46,
-  earring47,
-  earring48,
-  earring49,
-  earring50,
-  earring51,
-  earring52,
-  earring53,
-  earring54,
-  earring55,
-  earring56,
-  earring57,
-  earring58,
-  earring59,
-  earring60,
-  earring61,
-  earring62,
-  earring63,
-  earring64,
-  earring65,
-  earring66,
-  earring68,
-  earring69,
-  earring70,
-  earring71,
+  earring01, earring02, earring03, earring04,
+  earring05, earring06, earring07, earring08,
+  earring09, earring10, earring11, earring12,
+  earring13, earring14, earring15, earring16,
+  earring17, earring18, earring19, earring20,
+  earring21, earring22, earring23, earring24,
+  earring25, earring26, earring27, earring28,
+  earring29, earring30, earring31,
+  earring33, earring34, earring35, earring36,
+  earring37, earring38, earring39, earring40,
+  earring41, earring42, earring43,
 ];
 
 const necklaceImages = [
-  necklace01,
-  necklace02,
-  necklace03,
-  necklace04,
-  necklace05,
-  necklace06,
-  necklace07,
-  necklace08,
-  necklace09,
-  necklace10,
-  necklace11,
-  necklace12,
-  necklace13,
-  necklace14,
-  necklace15,
-  necklace16,
-  necklace17,
-  necklace18,
-  necklace19,
-  necklace20,
+  necklace01, necklace02, necklace03, necklace04,
+  necklace05, necklace06, necklace07, necklace08,
+  necklace09, necklace10, necklace11, necklace12,
+  necklace13, necklace14, necklace15, necklace16,
+  necklace17, necklace18, necklace19, necklace20,
+  necklace21, necklace22,
 ];
 
 const pendantImages = [
-  pendant01,
-  pendant02,
-  pendant03,
-  pendant04,
-  pendant05,
-  pendant06,
-  pendant07,
-  pendant08,
-  pendant09,
-  pendant10,
-  pendant11,
-  pendant12,
-  pendant13,
-  pendant14,
-  pendant15,
-  pendant16,
-  pendant17,
-  pendant18,
-  pendant19,
-  pendant20,
-  pendant21,
-  pendant22,
-  pendant23,
-  pendant24,
-  pendant25,
-  pendant26,
-  pendant27,
-  pendant28,
-  pendant29,
-  pendant30,
-  pendant31,
-  pendant32,
-  pendant33,
-  pendant34,
-  pendant35,
-  pendant36,
-  pendant37,
-  pendant38,
-  pendant39,
-  pendant40,
-  pendant41,
-  pendant42,
-  pendant43,
-  pendant44,
+  pendant01, pendant02, pendant03, pendant04,
+  pendant05, pendant06, pendant07, pendant08,
+  pendant09, pendant10, pendant11, pendant12,
+  pendant13, pendant14, pendant15, pendant16,
+  pendant17, pendant18, pendant19, pendant20,
+  pendant21, pendant22, pendant23, pendant24,
+  pendant25, pendant26, pendant27, pendant28,
+  pendant29, pendant30, pendant31, pendant32,
+  pendant33, pendant34, pendant35, pendant36,
+  pendant37, pendant38, pendant39, pendant40,
+  pendant41, pendant42, pendant43, pendant44,
 ];
 
-/* =========================
-   PRODUCT GENERATORS
-========================= */
+const diamondImages = [
+  diamond01, diamond02, diamond03, diamond04,
+  diamond05, diamond06, diamond07, diamond08,
+  diamond09, diamond10, diamond11, diamond12,
+  diamond13, diamond14, diamond15,
+];
 
-const generatedMenRings: Product[] = menRingImages.map(
-  (image, index) => ({
+const sakhaImages = [
+  sakha01, sakha02, sakha03, sakha04,
+  sakha05, sakha06, sakha07, sakha08,
+  sakha09, sakha10, sakha11, sakha12,
+  sakha13, sakha14, sakha15,
+];
+
+
+/* =========================================================
+   PRODUCT GENERATORS
+   ========================================================= */
+
+const generatedMenRings: Product[] =
+  menRingImages.map((image, index) => ({
     id: index + 1,
     name: `Swarna Men Ring ${index + 1}`,
     category: "Rings",
     gender: "Men",
     price: 76077 + index * 7311,
     image,
-  })
-);
+  }));
 
 const generatedWomenRings: Product[] =
   womenRingImages.map((image, index) => ({
@@ -576,9 +453,30 @@ const generatedPendants: Product[] =
     image,
   }));
 
-/* =========================
+const generatedDiamond: Product[] =
+  diamondImages.map((image, index) => ({
+    id: 700 + index,
+    name: `Swarna Diamond Jewellery ${index + 1}`,
+    category: "Diamond",
+    gender: "Women",
+    price: 95000 + index * 8500,
+    image,
+  }));
+
+const generatedSakha: Product[] =
+  sakhaImages.map((image, index) => ({
+    id: 800 + index,
+    name: `Swarna Sakha ${index + 1}`,
+    category: "Sakha",
+    gender: "Women",
+    price: 45000 + index * 4000,
+    image,
+  }));
+
+
+/* =========================================================
    ALL PRODUCTS
-========================= */
+   ========================================================= */
 
 export const products: Product[] = [
   ...generatedMenRings,
@@ -588,23 +486,34 @@ export const products: Product[] = [
   ...generatedMangalsutras,
   ...generatedEarrings,
   ...generatedPendants,
+  ...generatedDiamond,
+  ...generatedSakha,
 ];
 
-/* =========================
+
+/* =========================================================
    CATEGORIES
-========================= */
+   =========================================================
+   Bangles and Bridal are REMOVED.
+   Diamond and Sakha are ADDED.
+   ========================================================= */
 
 export const categories = [
   "All",
   "Necklaces",
   "Rings",
   "Earrings",
-  "Bangles",
-  "Bridal",
   "Pendants",
   "Chains",
   "Mangalsutra",
+  "Diamond",
+  "Sakha",
 ];
+
+
+/* =========================================================
+   RING GENDERS
+   ========================================================= */
 
 export const ringGenders = [
   "All Rings",
